@@ -1,0 +1,81 @@
+html, body {
+    font-family: Inconsolata;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.directionsContainer {
+    width: 380px;
+    height: 100%;
+    overflow-y: auto;
+    float: left;
+
+    position: relative;
+    left: 0px;
+	padding: 0 20px;
+}
+
+#myMap {
+    position: relative;
+    width: calc(100% - 420px);
+    height: 100%;
+    float: left;
+}
+
+h1 {
+    font-family: Noto_sans_bold;
+    font-size: 34px;
+}
+
+h2 {
+    font-family: Noto_sans_bold;
+    font-size: 20px;
+	margin-right: 20px;
+}
+
+Button {
+    background: #816C61;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+    font-family: Noto_sans;
+    font-size: 13px;
+    
+    color: #FFFFFF;
+    }
+
+input, select {
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    height: 30px;
+}
+
+input[type=radio], input[type=checkbox] {
+	box-shadow: none;
+	vertical-align: middle !important;
+}
+
+.light-theme {
+    color: #000000;
+    background: #E7DFC6;
+  }
+
+@font-face {
+    font-family: Noto_sans_bold;
+    src: url(src/fonts/Noto_Sans/NotoSans-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Noto_sans;
+    src: url(src/fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url(src/fonts/Inconsolata/static/Inconsolata/Inconsolata-Regular.ttf);
+}
